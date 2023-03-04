@@ -8,7 +8,7 @@ import loggedReducer from "./isLogged";
 
 const allReducers = combineReducers({
     counter: counterReducer,
-    loisLogged: loggedReducer
+    isLogged: loggedReducer
 })
 
 export default allReducers
